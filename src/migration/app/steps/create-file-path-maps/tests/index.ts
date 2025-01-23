@@ -7,8 +7,8 @@ import { mapServices } from './map-services.js';
 export function mapTestsFolder(options: Options): FilePathMap {
   return new Map([
     ...mapComponents(options),
-    ...mapRouteControllers(options),
-    ...mapRouteRoutes(options),
+    // ...mapRouteControllers(options),
+    // ...mapRouteRoutes(options),
     ...mapServices(options),
   ]);
 }

@@ -10,9 +10,9 @@ export function mapAppFolder(options: Options): FilePathMap {
   return new Map([
     ...mapComponentClasses(options),
     ...mapComponentTemplates(options),
-    ...mapRouteControllers(options),
-    ...mapRouteRoutes(options),
-    ...mapRouteTemplates(options),
+    // ...mapRouteControllers(options),
+    // ...mapRouteRoutes(options),
+    // ...mapRouteTemplates(options),
     ...mapServices(options),
   ]);
 }

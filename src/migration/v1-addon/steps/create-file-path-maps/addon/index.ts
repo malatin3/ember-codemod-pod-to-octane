@@ -13,10 +13,10 @@ export function mapAddonFolder(options: Options): FilePathMap {
     ...mapComponentClasses(options),
     ...mapComponentStylesheets(options),
     ...mapComponentTemplates(options),
-    ...mapRouteControllers(options),
-    ...mapRouteRoutes(options),
-    ...mapRouteStylesheets(options),
-    ...mapRouteTemplates(options),
+    // ...mapRouteControllers(options),
+    // ...mapRouteRoutes(options),
+    // ...mapRouteStylesheets(options),
+    // ...mapRouteTemplates(options),
     ...mapServices(options),
   ]);
 }
